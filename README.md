@@ -12,6 +12,7 @@ usage:
 git clone https://github.com/stlbucket/fbkt-extension-starter myAppName
 cd myAppName
 npm install
+npm run buildDb
 npm run test
 npm run dev
 ```
