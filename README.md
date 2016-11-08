@@ -2,8 +2,10 @@
 create a quick fbkt extension
 
 requirements:
+```
 -node ^6.9
 -postgres ^9.5 with postgis extension installed
+```
 
 usage:
 ```
