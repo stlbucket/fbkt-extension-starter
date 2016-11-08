@@ -1,11 +1,12 @@
 {
   "name": "fbkt-extension-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=dev node devServer dev",
     "test": "NODE_ENV=test node devServer dev runAllUnitTests",
+    "buildDb": "NODE_ENV=buildDb node devServer dev buildDb",
     "testCommand": "NODE_ENV=test node devServer dev testCommand",
     "startAndStopServer": "NODE_ENV=test node devServer dev startAndStopServer",
     "initPackage": "NODE_ENV=dev node devServer dev initPackage"
@@ -14,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fbkt": "^1.0.30"
+    "fbkt": "^1.0.31",
+    "fbkt-pg": "^1.0.10"
   }
 }

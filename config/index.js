@@ -1,5 +1,5 @@
 module.exports = {
 	application:	{
-		name:		'Function Starter Kit'
+		name:		'Function Bucket Starter Kit'
 	},
 };
