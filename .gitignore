@@ -14,6 +14,7 @@ results
 
 ui_components
 sourceData
+node_modules
 bower_components
 npm-debug.log
 output.txt
