@@ -16,3 +16,5 @@ npm run buildDb
 npm run test
 npm run dev
 ```
+
+**/config/dev/index.js** contains db connection setup - alter accordingly
