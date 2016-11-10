@@ -24,7 +24,6 @@ deployedAppConfig.js
 ignoreAllThis
 
 .elasticbeanstalk/
-.idea/
 npm-debug.*
 
 scripts/appClient/src/WL/views/dashboard/wlDashboardView.map.js
