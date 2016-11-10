@@ -1,6 +1,6 @@
 {
   "name": "fbkt-extension-starter",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "fbkt": "^1.0.31",
+    "fbkt-login": "^1.0.2",
     "fbkt-pg": "^1.0.10"
   }
 }
