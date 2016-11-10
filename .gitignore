@@ -22,7 +22,7 @@ testOutput.txt
 /scripts/appServer/src/appConfig.js
 deployedAppConfig.js
 ignoreAllThis
-
+.idea/
 .elasticbeanstalk/
 npm-debug.*
 
