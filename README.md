@@ -31,3 +31,8 @@ then to run
 ```
 docker run -d --name your-extension-name -p 80:20831 your-extension-name 
 ```
+
+and finally
+```
+http://localhost/api/ping
+```
