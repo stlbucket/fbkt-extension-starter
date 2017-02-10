@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev node devServer dev",
-    "test": "NODE_ENV=test node devServer dev runAllUnitTests",
-    "buildDb": "NODE_ENV=buildDb node devServer dev buildDb",
-    "testCommand": "NODE_ENV=test node devServer dev testCommand",
-    "startAndStopServer": "NODE_ENV=test node devServer dev startAndStopServer",
-    "initPackage": "NODE_ENV=dev node devServer dev initPackage"
+    "dev": "NODE_ENV=dev node server dev",
+    "test": "NODE_ENV=test node server dev runAllUnitTests",
+    "buildDb": "NODE_ENV=buildDb node server dev buildDb",
+    "testCommand": "NODE_ENV=test node server dev testCommand",
+    "startAndStopServer": "NODE_ENV=test node server dev startAndStopServer",
+    "initPackage": "NODE_ENV=dev node server dev initPackage"
   },
   "keywords": [],
   "author": "",

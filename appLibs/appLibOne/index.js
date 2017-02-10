@@ -3,8 +3,8 @@ module.exports = {
 	libRelativePath:	function(){
 		return __dirname;
 	},
-	serverCommandMap:	require('./serverCommandMap'),
-	serverExtensions:	require('./serverExtensions'),
+	// serverCommandMap:	require('./serverCommandMap'),
+	// serverExtensions:	require('./serverExtensions'),
 	customRestControllers:	[
 		require('./controller/customRest/pong'),
 	],

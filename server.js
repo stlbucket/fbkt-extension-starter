@@ -5,11 +5,11 @@ const fbktLogin = require('fbkt-login');
 const appLibs = require('./appLibs');
 
 const libs = {
-  dbAccess:		fbktpg.dbAccess,
-  coreDb:			fbktpg.coreDb,
-  dbManager:	fbktpg.dbManager,
-  pgRestApi:	fbktpg.pgRestApi,
-  fbktLogin:  fbktLogin.core,
+  // dbAccess:		fbktpg.dbAccess,
+  // coreDb:			fbktpg.coreDb,
+  // dbManager:	fbktpg.dbManager,
+  // pgRestApi:	fbktpg.pgRestApi,
+  // fbktLogin:  fbktLogin.core,
   appLibOne:	appLibs.appLibOne
 };
 
