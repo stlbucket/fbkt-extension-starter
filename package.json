@@ -1,14 +1,13 @@
 {
   "name": "fbkt-extension-starter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev node devServer",
-    "test": "NODE_ENV=test node devServer -c runAllUnitTests",
-    "testPort": "PORT=20832 NODE_ENV=test node devServer",
-    "testCommand": "NODE_ENV=test node devServer -c testCommand",
-    "startAndStopServer": "NODE_ENV=test node devServer -c startAndStopServer"
+    "start": "node server --NODE_ENV dev",
+    "test": "node server --NODE_ENV test --command runAllUnitTests",
+    "wipeDb": "node server --NODE_ENV buildDb --command wipeDb",
+    "buildDb": "node server --NODE_ENV buildDb --command buildDb"
   },
   "keywords": [],
   "author": "",

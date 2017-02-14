@@ -1,7 +1,7 @@
 let Fbkt = require('fbkt');
 // const fbktpg = require('fbkt-pg');
 // const fbktLogin = require('fbkt-login');
-let config = require('./config/dev');
+let config = require('./config');
 const appLibs = require('./appLibs');
 
 const libs = {

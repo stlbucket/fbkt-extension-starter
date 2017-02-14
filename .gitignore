@@ -26,8 +26,9 @@ testOutput.txt
 /scripts/appServer/src/appConfig.js
 deployedAppConfig.js
 ignoreAllThis
-.idea/
+
 .elasticbeanstalk/
+.idea/
 npm-debug.*
 
 scripts/appClient/src/WL/views/dashboard/wlDashboardView.map.js
