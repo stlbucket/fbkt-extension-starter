@@ -1,3 +1,3 @@
 module.exports = {
-  appLibOne:  require('./appLibOne')
+  'api':  require('./soro-api')
 };
